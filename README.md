@@ -1,6 +1,4 @@
-# --To-Do-List-Application
-Create a Python program for adding, completing, and removing tasks—a simple introduction to Python programming.
-class TodoList: def init(self): self.tasks = [] Here, a class named TodoList is defined. It represents a todo list. The init method is a constructor method, which initializes a new instance of the TodoList class. It initializes an empty list self.tasks to store the tasks.
+Create a Python program for adding, completing, and removing tasks—a simple introduction to Python programming. class TodoList: def init(self): self.tasks = [] Here, a class named TodoList is defined. It represents a todo list. The init method is a constructor method, which initializes a new instance of the TodoList class. It initializes an empty list self.tasks to store the tasks.
 
 def add_task(self, task):
     self.tasks.append(task)
@@ -57,4 +55,3 @@ while True:
     else:
         print("Invalid choice. Please try again.")
 if name == "main": main() This function creates an instance of TodoList, then enters a loop where it repeatedly displays a menu of options for the user to interact with the todo list. Depending on the user's choice, it calls the corresponding method of the TodoList instance (add_task, complete_task, remove_task, or display_tasks). If the user chooses to quit (choice == '5'), the loop exits and the program ends.
-
